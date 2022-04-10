@@ -23,7 +23,8 @@ app.use(cors());
 
 // Get all task resource
 app.get('/api/v1.0/task',taskController.getTask);
-app.get('/api/v1.0/task/id',taskController.getTaskById);
+//app.get('/api/v1.0/task/id',taskController.getTaskById);
+app.get('/api/v1.0/task/lev',taskController.TestLev);
 //// Get task by id
 //app.get('/api/v1.0/task/id/:taskId',taskController.getTaskById);
 //

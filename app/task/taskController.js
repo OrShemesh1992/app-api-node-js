@@ -26,12 +26,12 @@ module.exports = {
     },
     getTask: function (req, res) {
         //  finding all the task 
-        res.status(200).json({ test: "test", test1: "bdikaaaaa" });
+        res.status(200).json({ test: "levanaaaa", test1: "levanaaaa" });
     },
-    getTaskById: function (req, res) {
+    TestLev: function (req, res) {
         //  finding all the task
-        res.status(200).json({ test2: "test2", test2: "bdikaaaaa2" });
-        connection.query("SELECT * FROM test", function (err, result, fields) {
+        res.status(200).json({ test2: "levanaaaa", test2: "levanaaaa" });
+        connection.query("SELECT * FROM tb_users", function (err, result, fields) {
                       if (err) throw err;
                       console.log(result);
                     });
